@@ -2,7 +2,7 @@
     "id": "2e1ec522-717b-4700-97b4-baa6613dffe4",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_testseed",
+    "name": "spr_testseed1",
     "For3D": false,
     "HTile": false,
     "VTile": false,
