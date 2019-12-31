@@ -50,7 +50,7 @@
             "Key": "1ac4b500-fd59-4ca3-9c68-682ec7df06a7",
             "Value": {
                 "id": "86394c8a-f564-4a3b-833e-f721664c8c80",
-                "resourcePath": "objects\\obj_testbush\\obj_testbush.yy",
+                "resourcePath": "objects\\obj_bush1\\obj_bush1.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -67,6 +67,14 @@
             "Value": {
                 "id": "5a54a1de-943b-4eea-98c1-96f40359f1dc",
                 "resourcePath": "objects\\obj_char\\obj_char.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2707aa60-5894-46ca-88e9-76094a0884de",
+            "Value": {
+                "id": "4c1bb5ab-4048-4af3-8fa9-8d1cc9e8353b",
+                "resourcePath": "objects\\obj_bushtimer\\obj_bushtimer.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -183,6 +191,14 @@
             }
         },
         {
+            "Key": "91246ba7-9fe0-4b2c-a647-cf1cae79fbcf",
+            "Value": {
+                "id": "2b1cf311-3c24-4a27-a30a-20911f89d5d2",
+                "resourcePath": "sprites\\spr_bushtimer\\spr_bushtimer.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "95a6d6c7-b935-45d0-9d6c-ed61f3c4b7bf",
             "Value": {
                 "id": "3a7261dd-353e-41b7-b09a-d1be10aaa45f",
@@ -195,14 +211,6 @@
             "Value": {
                 "id": "c8b10006-36c4-4d19-8290-8819bb769fa5",
                 "resourcePath": "sprites\\spr_testseed3\\spr_testseed3.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "a3a2b413-9462-467d-99a2-bdac4eb33a9d",
-            "Value": {
-                "id": "5e601a89-9186-4a26-8c41-90f1e7d7b36d",
-                "resourcePath": "sprites\\spr_testbush\\spr_testbush.yy",
                 "resourceType": "GMSprite"
             }
         },
