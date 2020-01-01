@@ -2,7 +2,7 @@
     "id": "c68b35a1-9e76-4585-908e-b20cdf3e1944",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_bush1",
+    "name": "spr_w1_bush",
     "For3D": false,
     "HTile": false,
     "VTile": false,

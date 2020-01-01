@@ -6,7 +6,7 @@ inv_slots_width = 6;
 inv_slots_height = 4;
 cell_size = 54;
 
-spr_inv_items = spr_testinv_items;
+spr_inv_items = spr_testinv_seeds;
 
 spr_inv_items_colums = sprite_get_width(spr_inv_items)/cell_size;
 spr_inv_items_rows = sprite_get_height(spr_inv_items)/cell_size;
@@ -36,10 +36,10 @@ enum item {
 	none = 0,
 	red = 1,
 	blue = 2,
-	green = 3,
-	pink = 4,
-	yellow = 5,
-	purple = 6,
+	purple = 3,
+	green = 4,
+	prink = 5,
+	yellow = 6,
 	height = 7,
 }
 
