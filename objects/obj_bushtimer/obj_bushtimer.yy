@@ -5,23 +5,13 @@
     "name": "obj_bushtimer",
     "eventList": [
         {
-            "id": "7219cba4-3d67-4614-9ff1-f6d7b763ff30",
+            "id": "d7ffaabd-85ba-4578-a3f8-720dce632742",
             "modelName": "GMEvent",
             "mvc": "1.0",
-            "IsDnD": true,
+            "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "2707aa60-5894-46ca-88e9-76094a0884de"
-        },
-        {
-            "id": "1b0bad01-5065-43d9-bfe8-0449a6816629",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 1,
             "m_owner": "2707aa60-5894-46ca-88e9-76094a0884de"
         }
     ],

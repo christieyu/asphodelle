@@ -5,23 +5,23 @@
     "name": "obj_bush1",
     "eventList": [
         {
-            "id": "78216fb0-b1ac-49e9-965d-4518eec9245d",
+            "id": "b61c7ecb-3792-485c-b4cb-473d80936b6f",
             "modelName": "GMEvent",
             "mvc": "1.0",
-            "IsDnD": true,
+            "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 4,
+            "enumb": 0,
             "eventtype": 6,
             "m_owner": "1ac4b500-fd59-4ca3-9c68-682ec7df06a7"
         },
         {
-            "id": "29a397ec-3f42-4d22-980f-0a40ba8ff9ed",
+            "id": "4180a3f0-849c-4b22-8b1f-1f8c3f85d835",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
+            "enumb": 2,
+            "eventtype": 2,
             "m_owner": "1ac4b500-fd59-4ca3-9c68-682ec7df06a7"
         }
     ],

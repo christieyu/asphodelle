@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "1e3e9033-27d4-4a40-a800-4bab8818e657",
+            "Value": {
+                "id": "17a4a349-ee38-4239-9301-9c3444c816c2",
+                "resourcePath": "sprites\\spr_char\\spr_char.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1f05d885-7822-45b6-bac0-4b5e74cb9c47",
             "Value": {
                 "id": "dac34414-f3d6-42b1-97d8-5a5c462d4c02",
@@ -138,7 +146,7 @@
             "Key": "58e4bdcb-8773-4cae-91a2-d1d72ee23705",
             "Value": {
                 "id": "aa8f1540-3672-4328-b238-ccaf699a264e",
-                "resourcePath": "sprites\\spr_char\\spr_char.yy",
+                "resourcePath": "sprites\\spr_char_walk\\spr_char_walk.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -172,6 +180,14 @@
                 "id": "fa1c9a7c-eae7-483a-b77c-e669672ca1cd",
                 "resourcePath": "objects\\obj_testseed1\\obj_testseed1.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6f7f64a4-67e7-4a96-a061-9c50f43ac5c2",
+            "Value": {
+                "id": "7bed51a7-2c4a-4085-85f7-1821d3197d19",
+                "resourcePath": "sprites\\spr_char_blink\\spr_char_blink.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -212,6 +228,14 @@
                 "id": "c8b10006-36c4-4d19-8290-8819bb769fa5",
                 "resourcePath": "sprites\\spr_testseed3\\spr_testseed3.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a0410fc7-9884-4715-8a26-93365be46cd9",
+            "Value": {
+                "id": "6acf4649-e8f9-4147-8d1a-2249318bb04e",
+                "resourcePath": "shaders\\shader0\\shader0.yy",
+                "resourceType": "GMShader"
             }
         },
         {
