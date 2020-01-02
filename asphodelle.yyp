@@ -34,7 +34,7 @@
             "Key": "0123d491-d05e-4c7e-b301-fccddbc2ef4a",
             "Value": {
                 "id": "793da4ee-487a-4086-9a09-3522e3fd230e",
-                "resourcePath": "sprites\\spr_inventory\\spr_inventory.yy",
+                "resourcePath": "sprites\\spr_inv\\spr_inv.yy",
                 "resourceType": "GMSprite"
             }
         },
