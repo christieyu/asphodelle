@@ -199,26 +199,10 @@
             }
         },
         {
-            "Key": "5a5aac1b-a4da-46e6-a11f-983969994d74",
-            "Value": {
-                "id": "49b66984-ed1c-4778-b411-2b5ee0bf17ed",
-                "resourcePath": "objects\\obj_testseed2\\obj_testseed2.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "6a7efbf6-6fe5-4fd5-af66-fc523fdd7a32",
             "Value": {
                 "id": "ff1393df-f40d-4956-bd83-0fd994504ab3",
                 "resourcePath": "objects\\obj_bruno\\obj_bruno.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "6da49798-b4da-408b-b6ab-7b7217b50b7d",
-            "Value": {
-                "id": "fa1c9a7c-eae7-483a-b77c-e669672ca1cd",
-                "resourcePath": "objects\\obj_testseed1\\obj_testseed1.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -300,14 +284,6 @@
                 "id": "6acf4649-e8f9-4147-8d1a-2249318bb04e",
                 "resourcePath": "shaders\\shader0\\shader0.yy",
                 "resourceType": "GMShader"
-            }
-        },
-        {
-            "Key": "a450cfea-f0b7-46f8-9d11-2b03229f553f",
-            "Value": {
-                "id": "3189a077-a406-4fb8-b55f-a96adc601d94",
-                "resourcePath": "objects\\obj_testseed3\\obj_testseed3.yy",
-                "resourceType": "GMObject"
             }
         },
         {

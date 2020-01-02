@@ -1,5 +1,5 @@
 depth = -3;
-show_inventory = true; 
+show_inventory = false; 
 
 inv_slots = 24;
 inv_slots_width = 6;
@@ -25,7 +25,7 @@ slots_y = inv_UI_x + 72;
 
 //inventory
 
-ds_inventory = ds_grid_create(2, inv_slots);
+global.ds_inventory = ds_grid_create(2, inv_slots);
 
 x_buffer = 12;
 y_buffer = 12;
@@ -42,14 +42,14 @@ enum item {
 	yellow = 6,
 	height = 7,
 }
-
+/*
 var yy = 0; repeat(inv_slots){
 	ds_inventory[# 0,yy] = irandom_range(1, item.height-1);
 	ds_inventory[# 1,yy] = irandom_range(1, 7);
 	
 	yy+=1;
 }
-
+*/
 
 
 
