@@ -247,6 +247,14 @@
             }
         },
         {
+            "Key": "760c6afa-bc9a-48c9-891a-18d1a0cc06f2",
+            "Value": {
+                "id": "d4ec34cf-c9e2-4f68-abe1-f8dc864756fe",
+                "resourcePath": "sprites\\spr_w1_bush2\\spr_w1_bush2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7a27459d-dff1-4065-b4f4-18fe23b63e6c",
             "Value": {
                 "id": "4d168e54-057a-4ac1-9fed-98d88c5742c6",
