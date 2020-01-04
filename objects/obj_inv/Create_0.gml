@@ -16,13 +16,13 @@ gui_width = display_get_gui_width();
 gui_height = display_get_gui_height();
 
 inv_UI_width = 600;
-inv_UI_height = 360;
+inv_UI_height = 420;
 
 inv_UI_x = (gui_width * 0.5) - (inv_UI_width * 0.5);
 inv_UI_y = (gui_height * 0.5) - (inv_UI_height * 0.5);
 
 slots_x = inv_UI_x + 42;
-slots_y = inv_UI_y + 42; 
+slots_y = inv_UI_y + 102; 
 
 
 
