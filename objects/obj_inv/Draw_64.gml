@@ -1,5 +1,10 @@
+if(keyboard_check_pressed(ord("E"))) {
+	show_inventory = !show_inventory 
+	}
+
 if(!show_inventory) exit; 
 
+draw_sprite(spr_pause, 0, gui_width/2, gui_height/2);
 draw_sprite(spr_inv, 0, inv_UI_x, inv_UI_y);
 
 var c = c_black;
