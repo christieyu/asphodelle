@@ -1,1 +1,1 @@
-global.bushclick=false;
+   global.bushclick=false;

@@ -23,7 +23,7 @@ inv_UI_y = (gui_height * 0.5) - (inv_UI_height * 0.5);
 slots_x = inv_UI_x + 42;
 slots_y = inv_UI_y + 42; 
 
-//inventory
+//inventory  
 
 ds_inventory = ds_grid_create(2, inv_slots);
 
@@ -43,12 +43,13 @@ enum item {
 	height = 7,
 }
 
-var yy = 0; repeat(inv_slots){
+var yy = 0;
+/*
+ repeat(inv_slots){
 	ds_inventory[# 0,yy] = irandom_range(1, item.height-1);
 	ds_inventory[# 1,yy] = irandom_range(1, 7);
 	
 	yy+=1;
 }
-
-
+*/
 

@@ -26,7 +26,7 @@ repeat(inv_slots) {
 	if(iitem > 0){
 		var number = inv_grid[# 1, ii];
 		draw_text_color(xx,yy, string(number), c,c,c,c,1); 
-	}
+ 	}
 	
 	//increment
 	ii += 1;
