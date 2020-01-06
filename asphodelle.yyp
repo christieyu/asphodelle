@@ -375,6 +375,14 @@
             }
         },
         {
+            "Key": "bb904a01-fe85-43b6-ac0f-fad6f18b0776",
+            "Value": {
+                "id": "69a3c431-00c7-4be6-aeb7-ff924c0833f4",
+                "resourcePath": "fonts\\ft_game\\ft_game.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "bbea942c-5e1d-4ce3-b00e-27570c9cab00",
             "Value": {
                 "id": "90d58196-da9f-41fd-b73e-f6faa06a8431",

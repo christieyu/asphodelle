@@ -1,4 +1,4 @@
-if(keyboard_check_pressed(ord("E"))) {
+ if(keyboard_check_pressed(ord("E"))) {
 	show_inventory = !show_inventory 
 	}
 
@@ -22,16 +22,28 @@ repeat(inv_slots) {
 	sx = (iitem mod spr_inv_items_colums)*cell_size;
 	sy = (iitem div spr_inv_items_colums)*cell_size;
 	
-	if(iitem > 0) draw_sprite_part_ext(
-		spr_inv_items, 0, sx, sy, cell_size, cell_size, xx, yy, 1, 1, c_white, 1
-		
-	);
 	
-	//draw number 
-	if(iitem > 0){
-		var number = inv_grid[# 1, ii];
-		draw_text_color(xx,yy, string(number), c,c,c,c,1); 
- 	}
+	switch(ii){
+		case selected_slot:
+			if(iitem > 0) draw_sprite_part_ext(
+				spr_inv_items, 0, sx, sy, cell_size, cell_size, xx, yy, 1, 1, c_white, 1
+				 );
+				gpu_set_blendmode(bm_add);
+				draw_sprite_part_ext(spr_inv_items, 0, sx, sy, cell_size, cell_size, xx, yy, 1, 1, c_white, 0.2);
+				gpu_set_blendmode(bm_normal);
+				
+		break;
+		
+		case selected_item:
+			if(iitem > 0) draw_sprite_part_ext(
+				spr_inv_items, 0, sx, sy, cell_size, cell_size, 504, 102, 1, 1, c_white, 0.1); 
+		
+		default:
+			if(iitem > 0) draw_sprite_part_ext(
+				spr_inv_items, 0, sx, sy, cell_size, cell_size, xx, yy, 1, 1, c_white, 1);
+		break; 
+	}
+	
 	
 	//increment
 	ii += 1;
@@ -40,5 +52,15 @@ repeat(inv_slots) {
 	
 }
 
-
+if(selected_slot != -1){
+	//item
+	iitem = inv_grid[# 0 , selected_slot];
+	sx = (iitem mod spr_inv_items_colums)*cell_size;
+	sy = (iitem div spr_inv_items_colums)*cell_size;
+	draw_sprite_part_ext(
+	spr_inv_items, 0, sx, sy, cell_size, cell_size, 180+504, 78+102, 1, 1, c_white, 1); 
+	var inum = inv_grid[# 1, selected_slot];
+	draw_set_font(ft_game);
+	draw_text_color(180+527, 78+158, string(inum), c,c,c,c, 1);
+}
 

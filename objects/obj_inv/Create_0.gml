@@ -1,12 +1,19 @@
 depth = -4;
 show_inventory = false; 
 
+selected_slot = 0;
+
+m_slotx = 0;
+m_sloty = 0;
+
 inv_slots = 24;
 inv_slots_width = 6;
 inv_slots_height = 4;              
 cell_size = 54; 
 
 spr_inv_items = spr_plants;
+spr_inv_seeds = spr_seeds;
+spr_inv_splants = spr_plants_s;
 spr_pausescreen = spr_pause;
 
 spr_inv_items_colums = sprite_get_width(spr_inv_items)/cell_size;
@@ -29,7 +36,7 @@ slots_y = inv_UI_y + 102;
 //inventory  
 
 ds_inventory = ds_grid_create(2, inv_slots);
-
+selected_item = -1;
 x_buffer = 18;
 y_buffer = 18;
 
@@ -43,6 +50,7 @@ enum item {
 	solaria = 4,
 	sea_almond = 5,
 	gladiola = 6,
+
 }
 
 
