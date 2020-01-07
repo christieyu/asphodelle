@@ -6,7 +6,7 @@ selected_slot = 0;
 m_slotx = 0;
 m_sloty = 0;
 
-inv_slots = 24;
+inv_slots = 24;  
 inv_slots_width = 6;
 inv_slots_height = 4;              
 cell_size = 54; 
@@ -36,6 +36,9 @@ slots_y = inv_UI_y + 102;
 //inventory  
 
 ds_inventory = ds_grid_create(2, inv_slots);
+ds_inventory_seed = ds_grid_create(2, inv_slots);
+ds_inventory_shiny = ds_grid_create(2, inv_slots);
+
 selected_item = -1;
 x_buffer = 18;
 y_buffer = 18;

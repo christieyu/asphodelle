@@ -9,7 +9,7 @@
         "73298e99-1ca2-4209-8eb0-e13b96767dc3"
     ],
     "filterType": "GMSprite",
-    "folderName": "spr_plants",
+    "folderName": "spr_inv_items",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
