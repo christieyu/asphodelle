@@ -1,4 +1,4 @@
-if (global.pause) {
+ if (global.pause) {
 	exit; 
 }
 
