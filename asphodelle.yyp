@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "41a94a80-aac1-4e78-b3be-8437d4c5fa7f",
+            "Value": {
+                "id": "da4a45ab-0b69-42dd-aa93-18829aa8ce6a",
+                "resourcePath": "objects\\obj_tank\\obj_tank.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4e4022fc-27a6-45ff-94f2-06bdc3c2ff47",
             "Value": {
                 "id": "7b986942-5879-40c3-9b4c-ff735fc1b4c5",
@@ -426,7 +434,7 @@
             "Key": "d5f441a0-7ad7-4feb-aa82-c51aed81019e",
             "Value": {
                 "id": "2299ba2b-7d75-495e-be84-a85494ef03fc",
-                "resourcePath": "sprites\\spr_tank\\spr_tank.yy",
+                "resourcePath": "sprites\\spr_breedtank\\spr_breedtank.yy",
                 "resourceType": "GMSprite"
             }
         },

@@ -2,7 +2,7 @@
     "id": "d5f441a0-7ad7-4feb-aa82-c51aed81019e",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_tank",
+    "name": "spr_breedtank",
     "For3D": false,
     "HTile": false,
     "VTile": false,
